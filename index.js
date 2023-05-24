@@ -9,8 +9,8 @@ const Consumer = kafka.Consumer;
 const Producer = kafka.Producer;
 
 const router = require("./src/routes/index.router");
-// const produce = require("./produce");
-// const consume = require("./consume");
+const produce = require("./produce");
+const consume = require("./consume");
 
 const app = express();
 
